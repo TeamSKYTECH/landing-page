@@ -1,0 +1,101 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.nav-bar-logo{
+    width: 200px;
+}
+ .collapse.navbar-collapse{
+     display: flex;
+ }
+
+ .navbar-nav{
+     margin-left: auto;
+ }
+.navbar{
+    background-color: #93bd75;
+}
+
+.logo-info{
+    margin: 0;
+    padding-top: 100px;
+}
+
+.main-logo{
+    width: 400px;
+}
+
+.nav-link{
+   color: black;
+   font-weight: 500;
+   text-transform: uppercase;
+}
+
+.card-img{
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #93bd75;
+    width: 300px;
+    height: 300px;
+}
+
+
+.card-body{
+    text-align: center;
+}
+
+.video-title{
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.video-section{
+   margin: 50px 0;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.our-video{
+    box-shadow: 0 0 3px 1px grey;
+    width: 350px;
+    height: 190px;
+}
+.member-dropdown {
+    margin-top: 20px;
+}
+
+.btn.btn-secondary.dropdown-toggle:hover {
+    color: blue;
+    font-weight: bold;
+    box-shadow: 0 0 3px 1px blue;
+
+}
+.btn.btn-secondary.dropdown-toggle{
+background-color: #93bd75;
+}
+
+
+
+.footer {
+    margin-top: 50px;
+    background-color: #93bd75;
+    text-align: center;
+    padding: 60px 0;
+}
+
+
+.footer p {
+    font-size: 21px;
+    color:black;
+    margin-bottom: 0;
+}
+
+
+
